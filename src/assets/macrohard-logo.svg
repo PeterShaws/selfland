@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 684.1853 182.43355"
+   version="1.1"
+   id="svg7034"
+   sodipodi:docname="macrohard-logo.svg"
+   width="684.1853"
+   height="182.43355"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata7040">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Microsoft logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs7038" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview7036"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="1.0596026"
+     inkscape:cx="317.91525"
+     inkscape:cy="61.056401"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7034" />
+  <title
+     id="title7022">Microsoft logo</title>
+  <g
+     id="g7607"
+     transform="rotate(-45,110.10839,45.608387)">
+    <path
+       id="path7026"
+       d="M 0,0 H 61.3 V 61.3 H 0 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#7f22f2;fill-opacity:1" />
+    <path
+       id="path7028"
+       d="M 67.7,0 H 129 V 61.3 H 67.7 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ba0053;fill-opacity:1" />
+    <path
+       id="path7030"
+       d="M 0,67.7 H 61.3 V 129 H 0 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#ef0000;fill-opacity:1" />
+    <path
+       id="path7032"
+       d="M 67.7,67.7 H 129 V 129 H 67.7 Z"
+       inkscape:connector-curvature="0"
+       style="fill:#f600ff;fill-opacity:1" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:110.72041321px;line-height:1.25;font-family:'Segoe UI';-inkscape-font-specification:'Segoe UI, Semi-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.76801014;"
+     x="184.74768"
+     y="130.01927"
+     id="text7587"><tspan
+       sodipodi:role="line"
+       id="tspan7585"
+       x="184.74768"
+       y="130.01927"
+       style="letter-spacing:-5px;stroke-width:2.76801014;fill:#ffffff;">Macrohard</tspan></text>
+</svg>
