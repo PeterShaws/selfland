@@ -1,5 +1,3 @@
-import CardData from './CardData';
-
 const cards: CardData[] = [
   {
     id: 0,

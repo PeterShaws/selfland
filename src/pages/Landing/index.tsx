@@ -16,15 +16,10 @@ import Partners from './Partners';
 import { Container } from './styles';
 import getValidationErrors from '../../utils/getValidationErrors';
 
-interface FormData {
-  name: string;
-  email: string;
-}
-
 const Landing: React.FC = () => {
   const formRef = useRef<FormHandles>(null);
 
-  const handleSubmit = useCallback(async (data: FormData) => {
+  const handleSubmit = useCallback(async (data: LandingFormData) => {
     try {
       formRef.current?.setErrors({});
       const schema = Yup.object().shape({

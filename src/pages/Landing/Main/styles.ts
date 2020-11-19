@@ -16,7 +16,7 @@ export const Container = styled.section`
     height: 100%;
     background-attachment: fixed;
     background-image: url(${background});
-    background-position: center top;
+    background-position: center center;
     background-size: cover;
     filter: saturate(0%) sepia(100%) hue-rotate(180deg) brightness(30%)
       saturate(200%);

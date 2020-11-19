@@ -1,9 +1,5 @@
 import { ValidationError } from 'yup';
 
-interface ValidationErrors {
-  [path: string]: string;
-}
-
 export default function getValidationErrors(
   validationError: ValidationError,
 ): ValidationErrors {
