@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import background from '../../../assets/landing-background.png';
 
-export const Container = styled.section`
+export const Container = styled.main`
   flex: 1;
   position: relative;
   padding: 4rem;
@@ -39,7 +39,7 @@ export const Container = styled.section`
   }
 `;
 
-export const ImageCredit = styled.div`
+export const ImageCredit = styled.aside`
   position: absolute;
   bottom: 1rem;
   right: 1rem;

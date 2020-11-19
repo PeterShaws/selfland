@@ -4,7 +4,7 @@ interface ContainerProps {
   showNav: boolean;
 }
 
-export const Container = styled.div<ContainerProps>`
+export const Container = styled.header<ContainerProps>`
   position: relative;
   height: 5rem;
   background-color: black;

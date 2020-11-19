@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 import { springUp } from '../../../utils/animations';
 
-export const Container = styled.ul`
+export const Container = styled.article`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

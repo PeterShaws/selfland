@@ -11,15 +11,13 @@ const Cards: React.FC = () => (
     {cards.map(card => {
       const Icon = RemixIcon[card.icon];
       return (
-        <li key={card.id} className="card">
+        <section key={card.id} className="card">
           <header>
             <Icon />
             <h4>{card.title}</h4>
           </header>
-          <p>
-            <Commonmark source={card.body} escapeHtml />
-          </p>
-        </li>
+          <Commonmark source={card.body} escapeHtml />
+        </section>
       );
     })}
   </Container>

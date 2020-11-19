@@ -2,7 +2,7 @@ declare module '*.png';
 
 declare interface CardData {
   id: number;
-  icon: keyof typeof RemixIcon;
+  icon: keyof typeof import('react-icons/ri');
   title: string;
   body: string;
 }

@@ -32,11 +32,8 @@ const Landing: React.FC = () => {
           .email('We need a valid e-mail'),
       });
       await schema.validate(data, { abortEarly: false });
-      // eslint-disable-next-line no-console
-      console.log(data);
+      // TODO Something should happen here
     } catch (error) {
-      // eslint-disable-next-line no-console
-      console.warn(error);
       if (error instanceof Yup.ValidationError) {
         const validationErrors = getValidationErrors(error);
         formRef.current?.setErrors(validationErrors);
