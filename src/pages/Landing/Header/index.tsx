@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
 
-const Hero: React.FC = () => (
+const Header: React.FC = () => (
   <Container>
     <div className="center">
       <h1>Selfland</h1>
@@ -11,4 +11,4 @@ const Hero: React.FC = () => (
   </Container>
 );
 
-export default Hero;
+export default Header;

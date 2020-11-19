@@ -12,7 +12,12 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
   icon?: IconType;
 }
-const Input: React.FC<InputProps> = ({ name, icon: Icon, ...props }) => {
+const Input: React.FC<InputProps> = ({
+  name,
+  icon: Icon,
+  className,
+  ...props
+}) => {
   const [hasFocus, setHasFocus] = useState(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
@@ -26,7 +31,7 @@ const Input: React.FC<InputProps> = ({ name, icon: Icon, ...props }) => {
   const signalBlur = useCallback(() => setHasFocus(false), []);
 
   return (
-    <Container onClick={focusInput} hasFocus={hasFocus}>
+    <Container onClick={focusInput} hasFocus={hasFocus} className={className}>
       {Icon && <Icon onClick={focusInput} />}
       <input
         ref={inputRef}

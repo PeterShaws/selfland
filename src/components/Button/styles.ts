@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.button`
-  margin-left: 1.5rem;
   padding: 1.5rem;
   font-weight: 500;
   color: var(--gainsboro);

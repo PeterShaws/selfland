@@ -27,10 +27,6 @@ export const Container = styled.div<ContainerProps>`
       border-color: var(--prussian-blue-light);
     `}
 
-  & + div {
-    margin-top: 0.8rem;
-  }
-
   svg {
     flex-shrink: 0;
     width: 1.8rem;
