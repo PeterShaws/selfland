@@ -9,6 +9,7 @@ export const Container = styled.div<ContainerProps>`
 
   &:hover .tooltip {
     opacity: 1;
+    z-index: 999;
 
     ${props =>
       props.direction === 'top'
