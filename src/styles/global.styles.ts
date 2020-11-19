@@ -24,6 +24,10 @@ const GlobalStyles = createGlobalStyle`
   button {
     font-family: 'Averia Serif Libre', serif;
     font-size: 1.8rem;
+
+    @media (max-width: 600px) {
+      font-size: 1.4rem;
+    }
   }
 
   button {
@@ -65,6 +69,10 @@ const GlobalStyles = createGlobalStyle`
     height: 0.1rem;
     background-color: var(--claret);
     margin: 4rem auto;
+
+    @media (max-width: 768px) {
+      margin: 2rem auto;
+    }
   }
 
   .center {

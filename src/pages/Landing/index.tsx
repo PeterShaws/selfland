@@ -8,9 +8,9 @@ import { Form } from '@unform/web';
 import Button from '../../components/Button';
 import Input from '../../components/Input';
 import Cards from './Cards';
-import Content from './Content';
+import Main from './Main';
 import Footer from './Footer';
-import Header from './Header';
+import Hero from './Hero';
 import Partners from './Partners';
 
 import { Container } from './styles';
@@ -51,8 +51,8 @@ const Landing: React.FC = () => {
 
   return (
     <Container>
-      <Header />
-      <Content>
+      <Hero />
+      <Main>
         <blockquote>
           “If you do not know where you come from, then you don’t know where you
           are, and if you don’t know where you are, then you don’t know where
@@ -81,7 +81,7 @@ const Landing: React.FC = () => {
         </Form>
         <hr />
         <Cards />
-      </Content>
+      </Main>
       <Partners />
       <Footer />
     </Container>

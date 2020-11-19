@@ -53,5 +53,25 @@ export const Container = styled.ul`
       font-size: 1.6rem;
       line-height: 2.4rem;
     }
+
+    @media (max-width: 1024px) {
+      width: calc(50% - 1.5rem);
+    }
+
+    @media (max-width: 640px) {
+      width: calc(100% - 1.5rem);
+
+      header {
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 0.75rem;
+
+        svg {
+          width: 2rem;
+          height: 2rem;
+          margin: 0 0.75rem;
+        }
+      }
+    }
   }
 `;

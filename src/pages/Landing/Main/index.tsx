@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, ImageCredit } from './styles';
 
-const Content: React.FC = ({ children }) => {
+const Main: React.FC = ({ children }) => {
   return (
     <Container className="content">
       <div className="center">{children}</div>
@@ -22,4 +22,4 @@ const Content: React.FC = ({ children }) => {
   );
 };
 
-export default Content;
+export default Main;

@@ -40,7 +40,7 @@ export const Container = styled.header`
     line-height: 12rem;
     font-size: 12rem;
     font-weight: normal;
-    text-shadow: 0 5px 10px #000000aa;
+    text-shadow: 0 0.5rem 1rem #000000aa;
   }
 
   h2 {
@@ -56,5 +56,28 @@ export const Container = styled.header`
     font-size: 3rem;
     color: var(--gamboge);
     opacity: 0.66;
+  }
+
+  @media (max-width: 1024px) {
+    height: 20rem;
+
+    h1 {
+      line-height: 8rem;
+      font-size: 8rem;
+    }
+
+    h2 {
+      margin-top: -0.825rem;
+      font-size: 1.4rem;
+      letter-spacing: 1.9rem;
+    }
+
+    em {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 640px) {
+    display: none;
   }
 `;

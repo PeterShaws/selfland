@@ -36,7 +36,7 @@ export const Container = styled.div<ContainerProps>`
     border-bottom-left-radius: var(--length-border-radius);
     border-bottom-right-radius: var(--length-border-radius);
     opacity: 0;
-    transition: height 0.2s, opacity 0.2s;
+    transition: height 0.2s, opacity 0.2s, margin-bottom 0.2s;
   }
 
   ${props =>
@@ -96,5 +96,15 @@ export const Container = styled.div<ContainerProps>`
       color: var(--gainsboro);
       opacity: 0.5;
     }
+  }
+
+  @media (max-width: 768px) {
+    padding: 0.75rem 1.5rem;
+
+    ${props =>
+      props.hasError &&
+      css`
+        margin-bottom: 1.5rem;
+      `}
   }
 `;

@@ -24,6 +24,14 @@ export const Container = styled.div`
         font-size: 1.6rem;
         opacity: 0.54;
       }
+
+      @media (max-width: 600px) {
+        font-size: 1.6rem;
+
+        strong {
+          font-size: 1.4rem;
+        }
+      }
     }
 
     h3,
@@ -33,6 +41,14 @@ export const Container = styled.div`
 
     h3 {
       text-align: center;
+
+      @media (max-width: 768px) {
+        font-size: 1.8rem;
+      }
+
+      @media (max-width: 374px) {
+        font-size: 1.4rem;
+      }
     }
 
     form {
@@ -43,6 +59,16 @@ export const Container = styled.div`
       .input + .input,
       button {
         margin-left: 1.5rem;
+      }
+
+      @media (max-width: 768px) {
+        flex-direction: column;
+
+        .input + .input,
+        button {
+          margin-left: 0;
+          margin-top: 1.5rem;
+        }
       }
     }
   }

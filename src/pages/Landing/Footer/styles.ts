@@ -37,7 +37,12 @@ export const Container = styled.header`
   }
 
   p {
+    display: flex;
     color: var(--gainsboro-dark);
+
+    span + span {
+      margin-left: 0.75rem;
+    }
 
     strong,
     em {
@@ -52,5 +57,19 @@ export const Container = styled.header`
       font-variant: small-caps;
       font-style: normal;
     }
+
+    @media (max-width: 400px) {
+      flex-direction: column;
+      align-items: center;
+
+      span + span {
+        margin-left: 0;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  @media (max-width: 640px) {
+    height: 7.5rem;
   }
 `;

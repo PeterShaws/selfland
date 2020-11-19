@@ -22,4 +22,8 @@ export const Container = styled.button`
       border-color: var(--claret-light);
     }
   }
+
+  @media (max-width: 768px) {
+    padding: 0.75rem 1.5rem;
+  }
 `;
