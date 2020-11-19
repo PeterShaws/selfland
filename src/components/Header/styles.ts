@@ -30,7 +30,22 @@ export const Container = styled.div`
     nav {
       display: flex;
 
-      a + a {
+      a {
+        &.log-in {
+          color: var(--gainsboro);
+
+          &:hover {
+            color: white;
+          }
+        }
+
+        & + a {
+          margin-left: 3rem;
+        }
+      }
+
+      a + div,
+      div + div {
         margin-left: 3rem;
       }
     }
@@ -38,7 +53,6 @@ export const Container = styled.div`
     svg {
       width: 2rem;
       height: 2rem;
-      margin-left: 3rem;
     }
   }
 `;

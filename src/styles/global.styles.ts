@@ -44,7 +44,10 @@ const GlobalStyles = createGlobalStyle`
     svg {
       width: 2em;
       height: 2em;
-      margin-right: 1.6em;
+
+      &:not(:only-child) {
+        margin-right: 1.6em;
+      }
     }
   }
 
