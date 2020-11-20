@@ -1,5 +1,7 @@
 import { ValidationError } from 'yup';
 
+import { ValidationErrors } from './interfaces';
+
 export default function getValidationErrors(
   validationError: ValidationError,
 ): ValidationErrors {

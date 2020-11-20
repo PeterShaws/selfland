@@ -15,26 +15,26 @@ const Header: React.FC = () => {
     <Container showNav={showNav}>
       <div className="center">
         <Tooltip message="Home" direction="bottom">
-          <Link to="/home">
+          <Link to="/">
             <h1>Selfland</h1>
           </Link>
         </Tooltip>
         <div className="right">
           <nav>
             <Tooltip message="What we want" direction="bottom">
-              <Link to="/manifesto">Manifesto</Link>
+              <Link to="/">Manifesto</Link>
             </Tooltip>
             <Tooltip message="Who we are" direction="bottom">
-              <Link to="/about-us">About Us</Link>
+              <Link to="/">About Us</Link>
             </Tooltip>
             <Tooltip message="Our self-knowledge programs" direction="bottom">
-              <Link to="/tracks">Tracks</Link>
+              <Link to="/">Tracks</Link>
             </Tooltip>
             <Tooltip message="Opportunities for mentors" direction="bottom">
-              <Link to="/careers">Careers</Link>
+              <Link to="/">Careers</Link>
             </Tooltip>
             <Tooltip message="Sign up or Enter" direction="bottom">
-              <Link to="/sign-in" className="log-in">
+              <Link to="/" className="log-in">
                 <RiUserAddLine />
               </Link>
             </Tooltip>

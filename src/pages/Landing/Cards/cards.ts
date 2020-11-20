@@ -1,3 +1,5 @@
+import { CardData } from '../../../utils/interfaces';
+
 const cards: CardData[] = [
   {
     id: 0,
