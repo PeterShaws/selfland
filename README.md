@@ -36,13 +36,13 @@ The desired tone for the page was one of austerity, authority, as a way to conve
 
 Neutral and cool background colors, with bold accents to draw the user’s attention.
 
-| Color         |                                                            Swatch                                                             |   HEX    | Applications                                     |
-| ------------- | :---------------------------------------------------------------------------------------------------------------------------: | :------: | ------------------------------------------------ |
-| Rich Black    | <div style="display:inline-block;width:1.5em;height:1.5em;background:#02040f;border:1px solid #fff8;border-radius:4px"></div> | #02040f; | Background                                       |
-| Prussian Blue | <div style="display:inline-block;width:1.5em;height:1.5em;background:#002642;border:1px solid #fff8;border-radius:4px"></div> | #002642; | Background accents                               |
-| Gainsboro     | <div style="display:inline-block;width:1.5em;height:1.5em;background:#e5dada;border:1px solid #fff8;border-radius:4px"></div> | #e5dada; | Main body copy, headers                          |
-| Gamboge       | <div style="display:inline-block;width:1.5em;height:1.5em;background:#e59500;border:1px solid #fff8;border-radius:4px"></div> | #e59500; | Links, section headers                           |
-| Claret        | <div style="display:inline-block;width:1.5em;height:1.5em;background:#840032;border:1px solid #fff8;border-radius:4px"></div> | #840032; | Form limits, form action button, form user hints |
+| Color         |                             Swatch                              |   HEX    | Applications                                     |
+| ------------- | :-------------------------------------------------------------: | :------: | ------------------------------------------------ |
+| Rich Black    | ![#02040f](https://via.placeholder.com/15/02040f/000000?text=+) | #02040f; | Background                                       |
+| Prussian Blue | ![#002642](https://via.placeholder.com/15/002642/000000?text=+) | #002642; | Background accents                               |
+| Gainsboro     | ![#e5dada](https://via.placeholder.com/15/e5dada/000000?text=+) | #e5dada; | Main body copy, headers                          |
+| Gamboge       | ![#e59500](https://via.placeholder.com/15/e59500/000000?text=+) | #e59500; | Links, section headers                           |
+| Claret        | ![#840032](https://via.placeholder.com/15/840032/000000?text=+) | #840032; | Form limits, form action button, form user hints |
 
 ---
 
