@@ -44,6 +44,10 @@ Neutral and cool background colors, with bold accents to draw the user’s atten
 | Gamboge       | ![#e59500](https://via.placeholder.com/15/e59500/000000?text=+) | #e59500; | Links, section headers                           |
 | Claret        | ![#840032](https://via.placeholder.com/15/840032/000000?text=+) | #840032; | Form limits, form action button, form user hints |
 
+## Screenshot
+
+![Screenshot](assets/screenshot.png)
+
 ---
 
 Made with 💛 by [**yours truly**](https://www.linkedin.com/in/pedro-chaves-jr/).
