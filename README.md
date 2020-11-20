@@ -16,7 +16,7 @@ The content is presented as a call to action from a fictitious mentorship servic
 
 # The Visual Language
 
-## Typogaphy
+## Typography
 
 - **Headings**: [Cinzel Decorative @ Google Fonts](https://fonts.google.com/specimen/Cinzel+Decorative)
 
