@@ -1,7 +1,9 @@
-![Selfland](assets/hero.png)
+[![Selfland](assets/hero.png)](https://petershaws.github.io/selfland/)
 
 > Landing page created for the Expansion Week Challenge of Rocketseat’s
 > GoStack Bootcamp 2020.
+>
+> _(Click the image above for a live preview)_
 
 The task: present a soft skill I consider to be among the most important for a
 developer. Given my history, there’s no other I could choose but _self-knowledge._
